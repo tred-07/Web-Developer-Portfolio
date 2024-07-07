@@ -73,7 +73,7 @@
       .secondary-bg {
         background-color: #843b07;
         border-radius: 5px;
-        border:none;
+        border: none;
       }
       .section-title {
         font-size: 35px;
@@ -97,24 +97,69 @@
         margin: 0 auto;
         /* text-align: center; */
       }
-      main section{
+      main section {
         margin-top: 130px;
         margin-bottom: 130px;
       }
-      .about-items{
+      .about-items {
         display: flex;
         justify-content: space-evenly;
       }
-      .tac{
+      .tac {
         text-align: center;
       }
-      .skill{
+      .skill {
         display: flex;
+        gap: 24px;
         justify-content: space-evenly;
         padding: 20px 40px;
       }
-      .skill-description{
-        color:black;
+      .skill_description {
+        color: black;
+      }
+      .skill-description {
+        color: #757575;
+        font-size: 16;
+      }
+      .skills-name {
+        /* border: 15px solid salmon;
+        border-radius: 10px; */
+        padding-top: 104px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        box-shadow: 0px 6px 50px 0px #181818;
+      }
+      /* resume */
+      .resume {
+        display: block;
+        text-align: right;
+        gap: 25px;
+      }
+      .working-position {
+        /* box-shadow: 0px 5px 50px 0px #181818; */
+      }
+      .position {
+      }
+      .organization {
+      }
+      .time {
+      }
+      .education {
+        display: block;
+      }
+      .qualification {
+        display: block;
+        text-align: right;
+        gap: 25px;
+      }
+      table{
+        border: none;
+      }
+      td {
+        padding: 15px;
+        margin: 5px;
+        border: 2px solid transparent;
       }
     </style>
   </head>
@@ -153,51 +198,165 @@
           meets clients requirements in our mata.
         </h1>
         <!-- div.about.items>div.about-item*4>p.item-title+p.item-description -->
-         <!-- emmet for the about items code -->
+        <!-- emmet for the about items code -->
         <div class="about-items">
-            <div class="about-item">
-                <p class="item-title">Name</p>
-                <p class="item-description">Mary-Hardy</p>
-            </div>
-            <div class="about-item">
-                <p class="item-title">Email</p>
-                <p class="item-description">xyz@xyz.com</p>
-            </div>
-            <div class="about-item">
-                <p class="item-title">Date-of-Birth</p>
-                <p class="item-description">x-month-y-year</p>
-            </div>
-            <div class="about-item">
-                <p class="item-title">From</p>
-                <p class="item-description">Maryland, USA</p>
-            </div>
+          <div class="about-item">
+            <p class="item-title">Name</p>
+            <p class="item-description">Mary-Hardy</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">Email</p>
+            <p class="item-description">xyz@xyz.com</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">Date-of-Birth</p>
+            <p class="item-description">x-month-y-year</p>
+          </div>
+          <div class="about-item">
+            <p class="item-title">From</p>
+            <p class="item-description">Maryland, USA</p>
+          </div>
         </div>
       </section>
       <section class="skills">
         <h3 class="section-title tac">What I do</h3>
-        <p class="skill-description tac">I have more than 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+        <p class="skill_description tac">
+          I have more than 10 years experience building software for clients all
+          over the world. Below is a quick overview of my main technical skill
+          sets and technologies i use. Want to find out more about my
+          experience? Check out my online resume and project portfolio.
+        </p>
         <div class="skill">
-            <div class="skills-name">
-                <img src="images/icons/js.png" alt="">
-                <p class="skill-name">JavaScript</p>
-                <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            </div>
-            <div class="skills-name">
-                <img src="images/icons/react.png" alt="">
-                <p class="skill-name">React</p>
-                <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            </div>
-            <div class="skills-name">
-                <img src="images/icons/nodejs.png" alt="">
-                <p class="skill-name">Node.js</p>
-                <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            </div>
-            <div class="skills-name">
-                <img src="images/icons/mongo.png" alt="">
-                <p class="skill-name">MongoDB</p>
-                <p class="skill-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</p>
-            </div>
+          <div class="skills-name">
+            <img src="images/icons/js.png" alt="" />
+            <p class="skill-name">JavaScript</p>
+            <p class="skill-description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skills-name">
+            <img src="images/icons/react.png" alt="" />
+            <p class="skill-name">React</p>
+            <p class="skill-description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skills-name">
+            <img src="images/icons/nodejs.png" alt="" />
+            <p class="skill-name">Node.js</p>
+            <p class="skill-description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
+          <div class="skills-name">
+            <img src="images/icons/mongo.png" alt="" />
+            <p class="skill-name">MongoDB</p>
+            <p class="skill-description">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div>
         </div>
+      </section>
+      <section class="resume">
+        <table>
+          <thead>
+            <tr>
+              <td>My Education</td>
+              <td>My Experience</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="qualification">
+                  <p class="degree">Master in Computer Engineering</p>
+                  <p class="institute">Harvard University / 2015 - 2017</p>
+                  <p class="e-des">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </td>
+              <td>
+                <div class="working-position">
+                  <p class="position">Sr. Font End Developer</p>
+                  <p class="organization">Apple Inc / 2020 - Current</p>
+                  <p class="time">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="qualification">
+                  <p class="degree">Master in Computer Engineering</p>
+                  <p class="institute">Harvard University / 2015 - 2017</p>
+                  <p class="e-des">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </td>
+              <td>
+                <div class="working-position">
+                  <p class="position">Sr. Font End Developer</p>
+                  <p class="organization">Apple Inc / 2020 - Current</p>
+                  <p class="time">
+                    List skill/technologies here. You can change the icon above
+                    to any of the 1500+ FontAwesome 5 free icons available.
+                    Aenean commodo ligula eget dolor.
+                  </p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="qualification">
+                        <p class="degree">Master in Computer Engineering</p>
+                        <p class="institute">Harvard University / 2015 - 2017</p>
+                        <p class="e-des">
+                          List skill/technologies here. You can change the icon above to any
+                          of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+                          ligula eget dolor.
+                        </p>
+                      </div>
+                </td>
+                <td>
+                    <div class="working-position">
+                        <p class="position">Sr. Font End Developer</p>
+                        <p class="organization">Apple Inc / 2020 - Current</p>
+                        <p class="time">
+                          List skill/technologies here. You can change the icon above
+                          to any of the 1500+ FontAwesome 5 free icons available.
+                          Aenean commodo ligula eget dolor.
+                        </p>
+                      </div>
+                </td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- <div class="qualification">
+            <p class="degree">Master in Computer Engineering</p>
+            <p class="institute">Harvard University / 2015 - 2017</p>
+            <p class="e-des">
+              List skill/technologies here. You can change the icon above to any
+              of the 1500+ FontAwesome 5 free icons available. Aenean commodo
+              ligula eget dolor.
+            </p>
+          </div> -->
       </section>
     </main>
     <footer></footer>
